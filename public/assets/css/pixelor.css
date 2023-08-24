@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'bricolage_grotesque';    
+    src: url('fonts/Bricolage_Grotesque/bricolagegrotesque-variablefont_opszwdthwght-webfont.eot');
+    src: url('fonts/Bricolage_Grotesque/bricolagegrotesque-variablefont_opszwdthwght-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Bricolage_Grotesque/bricolagegrotesque-variablefont_opszwdthwght-webfont.woff2') format('woff2'),
+         url('fonts/Bricolage_Grotesque/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf') format('truetype'),
+         url('fonts/Bricolage_Grotesque/bricolagegrotesque-variablefont_opszwdthwght-webfont.woff') format('woff'),
+         url('fonts/Bricolage_Grotesque/bricolagegrotesque-variablefont_opszwdthwght-webfont.svg#bricolage_grotesque48ptCnXBd') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+    
+body {
+    font-family: 'bricolage_grotesque', Arial, sans-serif;    
+    cursor: url('../img/pipette.png'), pointer;
+}

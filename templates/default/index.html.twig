@@ -1,0 +1,34 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Pixelor Script{% endblock %}
+{% block stylesheets %}
+    {{ parent() }}
+    <link href="{{asset('assets/css/pixelor.css')}}" rel="stylesheet">    
+    <style>
+        #canvas, #canvas_inside{
+            min-height: 400px;            
+        }
+        #canvas_inside{
+            margin: 5% 0;
+        }
+    </style>
+{% endblock %}
+{% block javascripts %}
+    {{ parent() }}
+{% endblock %}
+{% block body %}
+<div class="container-fluid">    
+    <div class="row">
+        <div class="row">
+            <div class="col-sm-9 mx-auto h1" > pixelor </div>
+        </div>
+        <div id="canvas" class="row">
+            <div class="col-sm-9 mx-auto bg-secondary border border-3 rounded">
+                <div id="canvas_inside" class="float-end col-sm-8 bg-light">
+                    <img src="{{}}" class="img-thumbnail" alt="Cinque Terre">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
